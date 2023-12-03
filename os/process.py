@@ -22,8 +22,8 @@ if __name__ == "__main__":
     print("parent process : ", os.getppid())
     print("\n일반적인 실행")
     foo()
-    
-    # 동시 수행이라서 프린트도 의도대로 안됨
+
+    # 동시 수행이라서 코드 순서대로 실행되지 않음
     print("\n멀티 프로세싱으로 실행")
     child1 = Process(target=foo).start()
     print("\n멀티 프로세싱으로 실행")
