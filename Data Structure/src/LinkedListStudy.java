@@ -1,5 +1,3 @@
-package Data_Structure;
-
 public class LinkedListStudy {
     static class LinkedList {
         Node head;

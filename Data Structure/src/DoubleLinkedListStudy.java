@@ -1,5 +1,3 @@
-package Data_Structure;
-
 public class DoubleLinkedListStudy {
     static class DoubleLinkedList {
         Node head;

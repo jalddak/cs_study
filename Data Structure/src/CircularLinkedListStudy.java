@@ -1,5 +1,3 @@
-package Data_Structure;
-
 public class CircularLinkedListStudy {
     static class CircularLinkedList {
         Node head;
